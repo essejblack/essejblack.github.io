@@ -47,7 +47,13 @@ I am a web developer with over 5 years of experience in designing, developing, a
 **Allayaly** (Apr 2024 - Aug 2024, Remote, Oman)  
 - Developed custom WordPress themes and plugins for tourism services, increasing bookings by 30%.  
 - Integrated Thawani payment gateway, improving transaction efficiency by 25%.  
-- Used Elementor for responsive designs, boosting user satisfaction by 40%.  
+- Used Elementor for responsive designs, boosting user satisfaction by 40%.
+
+### Freelance Web Developer  
+**Various Clients & Companies** (Jul 2023 - Mar 2024)  
+- Worked on several freelance WordPress projects, including custom themes, plugins, and performance optimization for small businesses
+- Self-studied Python with a focus on automation, data handling, and web tools.
+- Explored cryptocurrency and trading fundamentals, including blockchain tech, DeFi tools, and trading strategies.
 
 ### Laravel Developer  
 **Qoo Studio** (Aug 2022 - Jun 2023, Remote, Canada)  
@@ -61,7 +67,7 @@ I am a web developer with over 5 years of experience in designing, developing, a
 - Customized Laravel Nova admin panels, enhancing efficiency by 25%.  
 - Wrote PHPUnit tests, reducing post-deployment issues by 40%.  
 
-### WordPress Developer  
+### Freelance Web Developer  
 **Various Clients & Companies** (Apr 2020 - Dec 2021)  
 - Delivered custom WordPress e-commerce and logistics sites, improving client satisfaction by 50%.  
 - Built Laravel tracking platforms for shipping, optimizing operations for 100+ users.  
