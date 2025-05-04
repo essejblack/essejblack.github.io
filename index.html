@@ -1,29 +1,789 @@
-<!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" href="/assets/favico.bd552a4a.png" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>jKode</title>
-  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
-    rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ehsan Jahanara - Software Developer</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      @font-face {
+        font-family: "SF Pro";
+        src: url("assets/fonts/SF-Pro.ttf") format("truetype");
+        font-weight: normal;
+      }
+      @font-face {
+        font-family: "SF Pro";
+        src: url("assets/fonts/SF-Pro.ttf") format("truetype");
+        font-weight: bold;
+      }
+      body {
+        font-family: "SF Pro";
+      }
+      .section {
+        scroll-margin-top: 80px;
+      }
+      .social-icon {
+        transition: transform 0.2s;
+      }
+      .social-icon:hover {
+        transform: scale(1.2);
+      }
+      .my-bg-gray{
+        background-color: #f0f0f2;
+      }
+    </style>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body class="bg-gray-100">
+    
+    <nav class="bg-white text-black fixed w-full top-0 z-10 shadow-lg">
+      <div
+        class="container mx-auto px-4 py-4 flex justify-between items-center"
+      >
+        <div class="flex items-center space-x-0">
+          <img class="w-10 h-10 mx-auto" src="assets/image/Main JK logo.png" alt="">
+          <h1 class="text-xl font-bold">Ehsan Jahanara</h1>
+        </div>
+        
+        
+        <ul class="flex space-x-6">
+          <li><a href="#home" class="hover:underline">Home</a></li>
+          <li><a href="#about" class="hover:underline">About</a></li>
+          <li><a href="#experience" class="hover:underline">Experience</a></li>
+          <li><a href="#skills" class="hover:underline">Skills</a></li>
+          <li><a href="#projects" class="hover:underline">Projects</a></li>
+          <li><a href="#education" class="hover:underline">Education</a></li>
+          <li>
+            <a href="#hobbies-interests" class="hover:underline"
+              >Hobbies & Interests</a
+            >
+          </li>
+        </ul>
+        <a
+          href="Software_Developer_Ehsan_Jahanara.pdf"
+          download
+          class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-gray-200"
+          >Download CV</a
+        >
+      </div>
+    </nav>
 
     
+    <section
+      id="home"
+      class="section min-h-screen flex items-center justify-center my-bg-gray"
+    >
+      <div class="text-center">
+        <img class="w-64 h-64 mx-auto" src="assets/image/Main JK logo.png" alt="">
+        <h1 class="text-5xl font-bold text-black">Software Developer</h1>
+        <p class="text-lg mt-4 text-gray-700">
+          Crafting scalable web solutions with Laravel, WordPress, and Python
+          for global impact.
+        </p>
+      </div>
+    </section>
 
-  <script type="module" crossorigin src="/assets/index.8c5f7f0a.js"></script>
-  <link rel="stylesheet" href="/assets/index.e973df4e.css">
-</head>
+    
+    <section id="about" class="section py-16 bg-white">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8">About Me</h2>
+        <div class="flex flex-col md:flex-row items-center">
+          <div class="md:w-1/2 mb-6 md:mb-0">
+            <img
+              src="assets/image/my.JPG"
+              alt="Ehsan Jahanara"
+              class="w-80 h-80 rounded-full mx-auto object-cover"
+            />
+          </div>
+          <div class="md:w-1/2">
+            <p class="text-gray-700 leading-relaxed">
+              I'm Ehsan Jahanara, a web developer with over 5 years of
+              experience in designing, developing, and maintaining web
+              applications. My expertise spans PHP, Laravel, WordPress, and
+              front-end technologies like JavaScript and jQuery. I thrive on
+              solving complex problems and building scalable, user-centric
+              solutions. Passionate about delivering high-quality code, I
+              collaborate effectively with teams to create impactful digital
+              experiences. Based in Tehran, Iran, I'm seeking new challenges to
+              grow my skills and contribute to innovative projects worldwide.
+            </p>
+          
+            <div class="flex space-x-4 mt-6 justify-center md:justify-start">
+              <a
+                href="https://github.com/essejblack"
+                target="_blank"
+                class="social-icon"
+              >
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+                  alt="GitHub"
+                  class="w-8 h-8"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/ehsan-jahanara"
+                target="_blank"
+                class="social-icon"
+              >
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+                  alt="LinkedIn"
+                  class="w-8 h-8"
+                />
+              </a>
+              <a href="mailto:ehsan.jnra@gmail.com" class="social-icon">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/561/561127.png"
+                  alt="Email"
+                  class="w-8 h-8"
+                />
+              </a>
+              <a
+                href="https://essejblack.github.io"
+                target="_blank"
+                class="social-icon"
+              >
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/1006/1006771.png"
+                  alt="Portfolio"
+                  class="w-8 h-8"
+                />
+              </a>
+            </div>
+            <p class="text-gray-700 mt-4">
+              <strong>Languages:</strong> English (Fluent) | Persian (Native)<br />
+              <strong>Contact:</strong> ehsan.jnra@gmail.com | +98 912 0361
+              1121<br />
+              <strong>Address:</strong> Tehran, Iran
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<body>
-  <div id="app"></div>
-  
-  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-</body>
+    
+    <section id="experience" class="section py-16 bg-gray-100">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8">Experience</h2>
+        <div class="space-y-6">
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold">
+              WordPress Developer - Rastad.io
+            </h3>
+            <p class="text-gray-600">Jan 2025 - Present</p>
+            <ul class="list-disc list-inside mt-2 text-gray-700">
+              <li>
+                Designed WordPress e-commerce platforms for selling packages and
+                online lessons, driving sales and user engagement.
+              </li>
+              <li>
+                Customized themes and plugins, integrating real-time crypto
+                price displays for enhanced functionality.
+              </li>
+            </ul>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold">
+              WordPress Developer - Allayaly
+            </h3>
+            <p class="text-gray-600">Apr 2024 - Aug 2024, Remote, Oman</p>
+            <ul class="list-disc list-inside mt-2 text-gray-700">
+              <li>
+                Developed custom WordPress themes and plugins for tourism
+                services, increasing bookings by 30%.
+              </li>
+              <li>
+                Integrated Thawani payment gateway, improving transaction
+                efficiency by 25%.
+              </li>
+              <li>
+                Used Elementor for responsive designs, boosting user
+                satisfaction by 40%.
+              </li>
+            </ul>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold">
+              Laravel Developer - Qoo Studio
+            </h3>
+            <p class="text-gray-600">Aug 2022 - Jun 2023, Remote, Canada</p>
+            <ul class="list-disc list-inside mt-2 text-gray-700">
+              <li>
+                Built Laravel applications like QooBox, connecting 200+
+                contractors to engineers, cutting timelines by 35%.
+              </li>
+              <li>
+                Implemented Facade patterns and REST APIs with Passport,
+                reducing debugging time by 50%.
+              </li>
+              <li>
+                Dockerized projects (Laravel, Nginx, MySQL, Redis), streamlining
+                deployments by 40%.
+              </li>
+            </ul>
+            <p class="text-gray-700 mt-2"><strong>Projects:</strong></p>
+            <ul class="list-disc list-inside text-gray-700">
+              <li>
+                <a
+                  href="https://qoobox.com"
+                  target="_blank"
+                  class="text-blue-600 hover:underline"
+                  >QooBox</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://cornerstonemarketing.app/southforesthill"
+                  target="_blank"
+                  class="text-blue-600 hover:underline"
+                  >Foresthill</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://cornerstonemarketing.ca"
+                  target="_blank"
+                  class="text-blue-600 hover:underline"
+                  >Cornerstone</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://our-difference.qoostudio.com/pitch-deck"
+                  target="_blank"
+                  class="text-blue-600 hover:underline"
+                  >QooSolution</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold">
+              Laravel Developer - Shakewell Agency
+            </h3>
+            <p class="text-gray-600">Sep 2022 - Apr 2023, Remote, Australia</p>
+            <ul class="list-disc list-inside mt-2 text-gray-700">
+              <li>
+                Developed scalable Laravel platforms (e.g., Riptide Magazine),
+                integrating Stripe, boosting retention by 20%.
+              </li>
+              <li>
+                Customized Laravel Nova admin panels, enhancing efficiency by
+                25%.
+              </li>
+              <li>
+                Wrote PHPUnit tests, reducing post-deployment issues by 40%.
+              </li>
+            </ul>
+            <p class="text-gray-700 mt-2"><strong>Projects:</strong></p>
+            <ul class="list-disc list-inside text-gray-700">
+              <li>
+                <a
+                  href="https://optimizemindperformance.com"
+                  target="_blank"
+                  class="text-blue-600 hover:underline"
+                  >OMP</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.riptidemag.com.au"
+                  target="_blank"
+                  class="text-blue-600 hover:underline"
+                  >Riptide Magazine</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold">
+              WordPress Developer - Various Clients & Companies
+            </h3>
+            <p class="text-gray-600">Apr 2020 - Dec 2021</p>
+            <ul class="list-disc list-inside mt-2 text-gray-700">
+              <li>
+                Delivered custom WordPress e-commerce and logistics sites,
+                improving client satisfaction by 50% for over 1000 users.
+              </li>
+              <li>
+                Built Laravel tracking platforms for shipping, optimizing
+                operations for 100+ users.
+              </li>
+              <li>
+                Designed and developed custom WordPress themes and plugins,
+                achieving a 50% increase in client satisfaction.
+              </li>
+              <li>
+                Implemented CI/CD pipelines using GitLab and Docker, reducing
+                deployment times by 30%.
+              </li>
+              <li>
+                Designed themes, plugins, and websites using Elementor and WP
+                Bakery.
+              </li>
+            </ul>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold">PHP Developer - Serat Misagh</h3>
+            <p class="text-gray-600">
+              Feb 2019 - Mar 2020, Tehran Province, Iran
+            </p>
+            <ul class="list-disc list-inside mt-2 text-gray-700">
+              <li>
+                Developed a startup platform connecting contractors to civil
+                engineers using CodeIgniter 2, JavaScript, jQuery, HTML, and
+                CSS.
+              </li>
+              <li>
+                Designed and structured the company’s business website using
+                Laravel.
+              </li>
+              <li>
+                Initiated and developed AONE holding CRM with Telegram Bot using
+                PHP.
+              </li>
+            </ul>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold">
+              Junior Quality Assurance - Almaatech
+            </h3>
+            <p class="text-gray-600">
+              Feb 2018 - May 2018, Tehran Province, Iran
+            </p>
+            <ul class="list-disc list-inside mt-2 text-gray-700">
+              <li>Learned Selenium WebDriver and SEO concepts.</li>
+              <li>Collaborated to establish user-friendly websites.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    
+    <section id="skills" class="section py-16 bg-white">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8">Skills</h2>
+          <div class="md:flex-row mb-10">
+            <h3 class="text-xl font-semibold mb-4">Technical Skills</h3>
+            <ul class="list-disc list-inside text-gray-700">
+              <li>PHP, Laravel, WordPress, Python</li>
+              <li>Laravel: Eloquent, Nova, Passport, Blade, Scout</li>
+              <li>Databases: MySQL, MariaDB, Redis</li>
+              <li>Front-end: HTML, CSS, JavaScript, jQuery, Bootstrap</li>
+              <li>
+                WordPress: Elementor, Hooks, Plugin Development, Theme
+                Development
+              </li>
+              <li>
+                Python: BeautifulSoup, Requests, Scapy, Socket, Keylogger,
+                Selenium, Multi-threading
+              </li>
+              <li>
+                Server: Linux (Ubuntu, CentOS), GitHub CI/CD, Docker, Nginx,
+                Apache
+              </li>
+              <li>API: RESTful APIs with JWT, OAuth2</li>
+              <li>
+                Concepts: SOLID Principles, OOP, ORM, MVC, Design Patterns
+                (Facade, Repository, Singleton, Observer)
+              </li>
+              <li>
+                Testing: Feature Testing, Unit Testing, Integration Testing
+              </li>
+            </ul>
+          </div>
+          <div class="md:flex-row">
+            <h3 class="text-xl font-semibold mb-4">Soft Skills</h3>
+            <ul class="list-disc list-inside text-gray-700">
+              <li>Problem Solving</li>
+              <li>Code Review</li>
+              <li>Debugging</li>
+              <li>Teamwork</li>
+              <li>Adaptability</li>
+              <li>Attention to Detail</li>
+              <li>Active Listening</li>
+              <li>Self-Motivation</li>
+              <li>Training</li>
+              <li>Research & Analytical Skills</li>
+              <li>Planning & Organizational Skills</li>
+              <li>Technology Literacy</li>
+            </ul>
+          </div>
+      </div>
+    </section>
+
+    
+    <section id="projects" class="section py-16 bg-gray-100">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold">Personal Python Projects</h3>
+            <p class="text-gray-600">Python</p>
+            <p class="text-gray-700 mt-2">
+              Developed cybersecurity, automation, and web tools using libraries
+              like Requests, BeautifulSoup, Scapy, Socket, Keylogger, Selenium,
+              and Multi-threading. Built scripts for crawling, form detection,
+              client-server tools, and keystroke logging.
+            </p>
+            <a
+              href="https://github.com/essejblack"
+              target="_blank"
+              class="text-blue-600 hover:underline"
+              >View on GitHub</a
+            >
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold">DezharMine</h3>
+            <p class="text-gray-600">WordPress</p>
+            <p class="text-gray-700 mt-2">
+              Developed a website for specialized repairs of road construction
+              machinery.
+            </p>
+            <a
+              href="https://dezharmine.com"
+              target="_blank"
+              class="text-blue-600 hover:underline"
+              >Visit Website</a
+            >
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold">The School Of Iran</h3>
+            <p class="text-gray-600">WordPress</p>
+            <p class="text-gray-700 mt-2">
+              Built a website for a volunteer group focused on building
+              sustainable schools for children in Baluchistan, with a PayPal
+              donation gateway.
+            </p>
+            <a
+              href="https://theschoolofiran.org"
+              target="_blank"
+              class="text-blue-600 hover:underline"
+              >Visit Website</a
+            >
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold">KhaneGooGooli</h3>
+            <p class="text-gray-600">WordPress</p>
+            <p class="text-gray-700 mt-2">
+              Designed a WordPress-based online store for stylish drinkware and
+              accessories in Iran.
+            </p>
+            <a
+              href="https://khanegoogooli.ir"
+              target="_blank"
+              class="text-blue-600 hover:underline"
+              >Visit Website</a
+            >
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold">Topialand</h3>
+            <p class="text-gray-600">WordPress</p>
+            <p class="text-gray-700 mt-2">
+              Developed a WordPress online store for a Canadian brand selling
+              t-shirts, hoodies, and chocolates, using Betheme and tailored for
+              Persian-speaking markets.
+            </p>
+            <a
+              href="https://topialand.com"
+              target="_blank"
+              class="text-blue-600 hover:underline"
+              >Visit Website</a
+            >
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold">Barg Academy</h3>
+            <p class="text-gray-600">WordPress</p>
+            <p class="text-gray-700 mt-2">
+              Built an online school platform for media, journalism, and YouTube
+              education, offering interactive learning experiences.
+            </p>
+            <a
+              href="https://bargacademy.com"
+              target="_blank"
+              class="text-blue-600 hover:underline"
+              >Visit Website</a
+            >
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold">IRANTRB</h3>
+            <p class="text-gray-600">WordPress</p>
+            <p class="text-gray-700 mt-2">
+              Developed a platform for chain stores, enabling retired
+              individuals and pensioners to purchase groceries and essentials.
+            </p>
+            <a
+              href="https://irantrb.com"
+              target="_blank"
+              class="text-blue-600 hover:underline"
+              >Visit Website</a
+            >
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold">Jakojast</h3>
+            <p class="text-gray-600">WordPress</p>
+            <p class="text-gray-700 mt-2">
+              Created a booking platform for accommodations, hotels, and lodges,
+              showcasing amenities and streamlining reservations.
+            </p>
+            <a
+              href="https://jakojast.com"
+              target="_blank"
+              class="text-blue-600 hover:underline"
+              >Visit Website</a
+            >
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold">Rahnegarmin</h3>
+            <p class="text-gray-600">WordPress</p>
+            <p class="text-gray-700 mt-2">
+              Designed an online watch store as a Garmin representative,
+              enabling easy product browsing and purchasing.
+            </p>
+            <a
+              href="https://rahnegarmin.com"
+              target="_blank"
+              class="text-blue-600 hover:underline"
+              >Visit Website</a
+            >
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold">Tiba Club</h3>
+            <p class="text-gray-600">WordPress</p>
+            <p class="text-gray-700 mt-2">
+              Developed an online marketplace for auto parts, offering efficient
+              product categorization and secure payments.
+            </p>
+            <a
+              href="https://tiba-club.ir"
+              target="_blank"
+              class="text-blue-600 hover:underline"
+              >Visit Website</a
+            >
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold">Tooth Booth</h3>
+            <p class="text-gray-600">WordPress</p>
+            <p class="text-gray-700 mt-2">
+              Created a website for a dental care company, highlighting services
+              and offering a user-friendly experience.
+            </p>
+            <a
+              href="https://toothbooths.com"
+              target="_blank"
+              class="text-blue-600 hover:underline"
+              >Visit Website</a
+            >
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold">Unique Investments</h3>
+            <p class="text-gray-600">WordPress</p>
+            <p class="text-gray-700 mt-2">
+              Developed a website for a real estate company, showcasing
+              residential properties and condos with SEO optimization.
+            </p>
+            <a
+              href="https://unique-investments.be"
+              target="_blank"
+              class="text-blue-600 hover:underline"
+              >Visit Website</a
+            >
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold">WSI Oilfield</h3>
+            <p class="text-gray-600">WordPress</p>
+            <p class="text-gray-700 mt-2">
+              Designed an introduction website for an oil company, including a
+              resume submission page for attracting employees.
+            </p>
+            <a
+              href="https://wsi-oilfield.com"
+              target="_blank"
+              class="text-blue-600 hover:underline"
+              >Visit Website</a
+            >
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold">QooBox</h3>
+            <p class="text-gray-600">Laravel</p>
+            <p class="text-gray-700 mt-2">
+              Developed a dashboard system for agents to assign locations,
+              submit worksheets, and manage units, streamlining workflows.
+            </p>
+            <a
+              href="https://qoobox.com"
+              target="_blank"
+              class="text-blue-600 hover:underline"
+              >Visit Website</a
+            >
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold">Foresthill</h3>
+            <p class="text-gray-600">Laravel</p>
+            <p class="text-gray-700 mt-2">
+              Contributed to a platform for Cornerstone Marketing, enhancing
+              user engagement.
+            </p>
+            <a
+              href="https://cornerstonemarketing.app/southforesthill"
+              target="_blank"
+              class="text-blue-600 hover:underline"
+              >Visit Website</a
+            >
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold">Cornerstone</h3>
+            <p class="text-gray-600">Laravel</p>
+            <p class="text-gray-700 mt-2">
+              Developed a three-sided platform with customized Laravel Nova for
+              admins and a streamlined agent dashboard.
+            </p>
+            <a
+              href="https://cornerstonemarketing.ca"
+              target="_blank"
+              class="text-blue-600 hover:underline"
+              >Visit Website</a
+            >
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold">QooSolution</h3>
+            <p class="text-gray-600">Laravel</p>
+            <p class="text-gray-700 mt-2">
+              Contributed to a platform showcasing Qoo Studio's solutions,
+              designed for pitching and client engagement.
+            </p>
+            <a
+              href="https://our-difference.qoostudio.com/pitch-deck"
+              target="_blank"
+              class="text-blue-600 hover:underline"
+              >Visit Website</a
+            >
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold">OMP</h3>
+            <p class="text-gray-600">Laravel</p>
+            <p class="text-gray-700 mt-2">
+              Built backend endpoints and customized Laravel Nova for a mental
+              skills training platform, including feature and unit tests.
+            </p>
+            <a
+              href="https://optimizemindperformance.com"
+              target="_blank"
+              class="text-blue-600 hover:underline"
+              >Visit Website</a
+            >
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold">Riptide Magazine</h3>
+            <p class="text-gray-600">Laravel</p>
+            <p class="text-gray-700 mt-2">
+              Developed a platform for an Australian bodyboarding publication,
+              integrating Stripe for subscriptions.
+            </p>
+            <a
+              href="https://www.riptidemag.com.au"
+              target="_blank"
+              class="text-blue-600 hover:underline"
+              >Visit Website</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="education" class="section py-16 bg-white">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8">Education</h2>
+        <div class="space-y-6">
+          <div class="bg-gray-50 p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold">
+              Bachelor in Software Engineering
+            </h3>
+            <p class="text-gray-600">
+              University of Science and Culture, Tehran, Iran, 2020 - 2023
+            </p>
+            <ul class="list-disc list-inside mt-2 text-gray-700">
+              <li>
+                Developed a car game using Three.js with features like gravity,
+                shaders, shadows, and color measurements.
+              </li>
+              <li>
+                Built an AI project using Python and Keras to colorize grayscale
+                photos with high accuracy.
+              </li>
+            </ul>
+          </div>
+          <div class="bg-gray-50 p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold">
+              Associate's Degree in Computer Software Engineering
+            </h3>
+            <p class="text-gray-600">
+              Shamsipour Technical and Vocational College, Tehran, Iran, 2017 -
+              2019
+            </p>
+            <ul class="list-disc list-inside mt-2 text-gray-700">
+              <li>
+                Developed a Snake and Ladder game in C#, implementing game logic
+                and user interface.
+              </li>
+              <li>
+                Built a Library Website using CodeIgniter 2 for efficient book
+                management.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="hobbies-interests" class="section py-16 bg-gray-100">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-full mb-6 md:mb-0">
+            <h2 class="text-3xl font-bold text-left mb-8 max-w-md mx-auto">Hobbies</h2>
+            <ul class="list-disc text-left list-inside text-gray-700 max-w-md mx-auto">
+              <li>Traveling</li>
+              <li>Listening to music</li>
+              <li>Exploring online courses</li>
+              <li>Keeping up with technology trends</li>
+            </ul>
+          </div>
+          <div class="md:w-full mb-6 md:mb-0">
+            <h2 class="text-3xl font-bold text-left mb-8 max-w-md mx-auto">Interests</h2>
+            <ul class="list-disc text-left list-inside text-gray-700 max-w-md mx-auto">
+              <li>Cybersecurity</li>
+              <li>Personal Development</li>
+              <li>Startups</li>
+              <li>Innovation</li>
+              <li>Technology Trends</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <footer class="bg-white text-black py-4">
+      <div class="container mx-auto px-4 text-center">
+        <p>© 2025 Ehsan Jahanara. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      // Smooth scrolling for navigation links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+    </script>
+  </body>
 </html>
