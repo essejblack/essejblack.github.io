@@ -4,7 +4,6 @@ Tehran, Iran
 
 **Contact Information**  
 - **Email**: ehsan.jnra@gmail.com  
-- **Phone**: +98 912 0361 1121  
 - **LinkedIn**: [linkedin.com/in/ehsan-jahanara](https://www.linkedin.com/in/ehsan-jahanara)  
 - **GitHub**: [github.com/essejblack](https://github.com/essejblack)  
 - **Portfolio**: [essejblack.github.io](https://essejblack.github.io)  
